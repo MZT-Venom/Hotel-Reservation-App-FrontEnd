@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", "san-serif" !important;
+  text-align: left !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  background-color: black !important;
+}
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: whitesmoke !important;
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+}
+
+.smallimg {
+  margin-top: 10px;
+  height: 200px;
+  width: 100% !important;
+  border-radius: 5px !important;
+  margin-bottom: 10px;
+}
+.h1 {
+  font-size: 15px;
+}
+
+.btn-primary {
+  margin-bottom: 3px;
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.bs {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  padding: 20px, imp !important;
+  text-align: left !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.bigimg {
+  height: 400px;
+}
+
+.form-container {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+input[type="number"],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+.ant-picker {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(168, 165, 165, 0.443);
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0e0f0fb3;
+}
+h2 {
+  font-size: 30px !important;
+  padding: 10px !important;
+  text-align: center !important;
+}
+
+.dropdown-toggle {
+  border: 0px !important;
+}
+p {
+  font-size: 16px !important;
+}
+.landing {
+  background-color: #000000;
+  color: white;
+  position: fixed;
+  right:0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 30vh;
+}
